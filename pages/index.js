@@ -10,45 +10,69 @@ export default () => (
 
             <div id="main">
                 <section id="one" className="tiles">
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                    <article>
                         <header className="major">
-                            <h3>Aliquam</h3>
-                            <p>Ipsum dolor sit amet</p>
+                            <h3>Angular JS</h3>
+                            <p>
+                                Development and UI/UX design of Canopy 3 
+                                <br/>    
+                                at Insipred Thinking Group.
+                            </p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
+                    <article>
                         <header className="major">
-                            <h3>Tempus</h3>
-                            <p>feugiat amet tempus</p>
+                            <h3>React JS</h3>
+                            <p>
+                            Development and UI/UX design of projects
+                            <br/>    
+                            for Udacity (Google - AT&T - GitHub) Scholarship.
+                            </p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
+                    <article>
                         <header className="major">
-                            <h3>Magna</h3>
-                            <p>Lorem etiam nullam</p>
+                            <h3>Vanilla Javascript and jQuery</h3>
+                            <p>
+                                Projects developed and designed 
+                                <br/>    
+                                using Vanilla Javascript or jQuery library.
+                            </p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
+                    <article>
                         <header className="major">
-                            <h3>Ipsum</h3>
-                            <p>Nisl sed aliquam</p>
+                            <h3>WordPress CMS</h3>
+                            <p>
+                                Websites designed
+                                <br/>    
+                                using WordPress CMS.
+                            </p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
+                    <article>
                         <header className="major">
-                            <h3>Consequat</h3>
-                            <p>Ipsum dolor sit amet</p>
+                            <h3>Phorcy.com</h3>
+                            <p>
+                                Research paper publication based on e-learning.
+                                <br/>    
+                                Development of a platform based on the concept.
+                            </p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
+                    <article>
                         <header className="major">
-                            <h3>Etiam</h3>
-                            <p>Feugiat amet tempus</p>
+                            <h3>Virtual Tours</h3>
+                            <p>
+                                Developement of virtual Tours
+                                <br/>    
+
+                            </p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
@@ -56,12 +80,23 @@ export default () => (
                 <section id="two">
                     <div className="inner">
                         <header className="major">
-                            <h2>Massa libero</h2>
+                            <h2>Short bio</h2>
                         </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                        <ul className="actions">
-                            <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
-                        </ul>
+                        <p>
+                            My background is in Mechanical Engineering and worked for several years in the Maritime Industry.
+                            <br/>
+                            In 2014, I started gradually to shift career paths by developing WordPress sites and Virtual Tours.
+                            <br/>
+                            Following this path, allowed me to cooperate wth reputable Hotels and Companies. 
+                            <br/>
+                            During that period I became a <a href="https://www.google.com/streetview/contacts-tools/" target="_blank">Google trusted photographer</a> based in Athens and acquired a Google AdWords certification.
+                            <br/>
+                            In 2017, I received a <a href="https://www.udacity.com/scholarships" target="_blank">Udacity scholarship</a> for a Front-end Web Developer Nanodegree, sponsored by Google - AT&T - GitHub.
+                            <br/>
+                            At the same time, I took a bold decision to follow my passion for Front-end Web Development, relocating to the United Kingdom.
+                            <br/>
+                            Currently, I am working Full-time as a Front-end Web Developer in London.
+                        </p>
                     </div>
                 </section>
             </div>

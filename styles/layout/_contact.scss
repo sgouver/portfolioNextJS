@@ -28,6 +28,13 @@
 			> .split {
 				padding: 0;
 
+				.unselectable {
+					-webkit-user-select: none; /* Safari */        
+					-moz-user-select: none; /* Firefox */
+					-ms-user-select: none; /* IE10+/Edge */
+					user-select: none; /* Standard */
+				}
+
 				> * {
 					@include padding(3em, 0, (0, 0, 0, 3em));
 					position: relative;
