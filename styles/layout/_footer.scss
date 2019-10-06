@@ -7,6 +7,11 @@
 /* Footer */
 
 	#footer {
+		background: _palette(bg-2);
+
+		.inner {
+			padding: 2em 0 1em 0 !important;
+		}
 		.copyright {
 			font-size: 0.8em;
 			list-style: none;

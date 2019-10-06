@@ -19,7 +19,7 @@ export default () => (
                                 at Insipred Thinking Group.
                             </p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/angularJS"><a className="link primary"></a></Link>
                     </article>
                     <article>
                         <header className="major">
@@ -83,7 +83,7 @@ export default () => (
                             <h2>Short bio</h2>
                         </header>
                         <p>
-                            My background is in Mechanical Engineering and worked for several years in the Maritime Industry.
+                            My background is in Mechanical Engineering and I worked for several years in the Maritime Industry.
                             <br/>
                             In 2014, I started gradually to shift career paths by developing WordPress sites and Virtual Tours.
                             <br/>
@@ -95,7 +95,7 @@ export default () => (
                             <br/>
                             At the same time, I took a bold decision to follow my passion for Front-end Web Development, relocating to the United Kingdom.
                             <br/>
-                            Currently, I am working Full-time as a Front-end Web Developer in London.
+                            Currently, I am working full-time as a Front-end Web Developer in London.
                         </p>
                     </div>
                 </section>
