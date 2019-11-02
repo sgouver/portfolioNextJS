@@ -5,9 +5,8 @@
 ///
 
 /* Main */
-
 	#main {
-		background-color: _palette(bg-alt);
+		background-color: _palette(bg);
 
 		> * {
 			border-top: solid 1px _palette(border);
@@ -24,13 +23,23 @@
 			border-bottom: solid 1px _palette(border);
 		}
 
-		& #one {
-			background: _palette(bg);
+		#angularjs-two {
+			.content {
+				background-color: _palette(bg-4);
+			}
 		}
 
-		& #two {
+		#reactjs-two {
+			.image {
+			}
 			> section {
-				background: _palette(bg-4);
+				&:nth-child(1) {
+					background-color: rgb(112, 135, 143);
+				}
+
+				&:nth-child(2) {
+					background-color: #6d6b6b;
+				}
 			}
 		} 
 	}

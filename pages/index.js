@@ -30,7 +30,7 @@ export default () => (
                             for Udacity (Google - AT&T - GitHub) Scholarship.
                             </p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/reactJS"><a className="link primary"></a></Link>
                     </article>
                     <article>
                         <header className="major">

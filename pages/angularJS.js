@@ -2,7 +2,7 @@ import Head from "next/head"
 import Link from 'next/link'
 
 import Layout from '../components/Layout'
-import BannerLanding from '../components/AngularjsLanding'
+import AngularjsLanding from '../components/AngularjsLanding'
 
 export default () => (
     <Layout>
@@ -12,19 +12,19 @@ export default () => (
         </Head>
 
         <div>
-            <BannerLanding />
+            <AngularjsLanding />
 
             <div id="main">
-                <section id="one">
+                <section id="angularjs-one">
                     <div className="inner">
                         <header className="major">
                             <h2>Inspired Thinking Group & Canopy Platform</h2>
                         </header>
                         <p>In our always-on world, marketing is being driven by complex data and an ever-increasing need to execute millions of unique customer interactions on a daily basis. Our powerful technology, Canopy : Deploy, and award-winning CRM team will help you cut through this multichannel mayhem and deliver hyper-personalised interactions that matter to every single customer.</p>
-                        <Link href="https://www.itg.co.uk/technology/marketing-automation/" target="_blank">Read more</Link>
+                        <Link href="https://www.itg.co.uk/technology/marketing-automation/"><a target="_blank" className="button">Read more</a></Link>
                     </div>
                 </section>
-                <section id="two" className="spotlights">
+                <section id="angularjs-two" className="spotlights">
                     <section>
                         <Link href="/generic">
                             <a className="image"><img src="/static/images/teamitg.png" alt="" /></a>

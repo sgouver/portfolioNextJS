@@ -1,4 +1,4 @@
-const BannerLanding = (props) => (
+const AngularjsLanding = (props) => (
     <section id="banner" className="style1">
         <div className="inner">
             <header className="major">
@@ -11,4 +11,4 @@ const BannerLanding = (props) => (
     </section>
 )
 
-export default BannerLanding
+export default AngularjsLanding
