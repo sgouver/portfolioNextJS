@@ -1,8 +1,8 @@
-import Head from "next/head"
-import Link from 'next/link'
+import Head from "next/head";
+import Link from 'next/link';
 
-import Layout from '../components/Layout'
-import ReactjsLanding from '../components/ReactjsLanding'
+import Layout from '../components/Layout';
+import ReactjsLanding from '../components/ReactjsLanding';
 
 export default () => (
     <Layout>
@@ -51,15 +51,13 @@ export default () => (
                                 <header className="major">
                                     <h3>My Reads App</h3>
                                 </header>
-                                <p>The project is a responsive personal library App created by React. User can set the status of his readings. 
+                                <ol>The project is a responsive personal library App created by React. User can set the status of his readings. 
                                     There are three different status states:
-                                    <ol>
                                         <li>Currently reading</li>
                                         <li>Want to read</li>
                                         <li>Reading</li>
-                                    </ol>
                                     In Search user can find new books and add them to a status that will be transfered and remain in the MainApp page.
-                                </p>
+                                </ol>
                                 <ul className="actions">
                                 <li><Link href="https://github.com/sgouver/myreads"><a target="_blank" className="button">Github</a></Link></li>
                                 </ul>

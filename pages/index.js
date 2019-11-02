@@ -41,7 +41,7 @@ export default () => (
                                 using Vanilla Javascript or jQuery library.
                             </p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/javascript"><a className="link primary"></a></Link>
                     </article>
                     <article>
                         <header className="major">
@@ -70,8 +70,7 @@ export default () => (
                             <h3>Virtual Tours</h3>
                             <p>
                                 Developement of virtual Tours
-                                <br/>    
-
+                                <br/>
                             </p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
