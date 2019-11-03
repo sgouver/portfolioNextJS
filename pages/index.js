@@ -63,7 +63,7 @@ export default () => (
                                 Development of a platform based on the concept.
                             </p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/phorcy"><a className="link primary"></a></Link>
                     </article>
                     <article>
                         <header className="major">
