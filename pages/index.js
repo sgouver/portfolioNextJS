@@ -52,7 +52,7 @@ export default () => (
                                 using WordPress CMS.
                             </p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/wordpress"><a className="link primary"></a></Link>
                     </article>
                     <article>
                         <header className="major">
