@@ -20,115 +20,110 @@ export default () => (
                         <header className="major">
                             <h2>About the projects</h2>
                         </header>
-                        <p>A list of Wordpress based websites. The Websites were developed having in mind the SEO, responsivness and accesibility.</p>
+                        <p>The below 360 degree virtual tours have been developed using various technics. The portfolio mostly consists Hotels and restaurants.</p>
                     </div>
                 </section>
                 <section id="javascript-two" className="spotlights">
                     <section>
-                        <a className="image"><img src="/static/images/political-analyst_com.png" alt="Political Analyst" /></a>
+                        <a className="image"><img src="static/images/CAPSIS_OUT_OF_THE_BLUE.png" alt="Capsis Elite Resort" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>political-analist.com</h3>
+                                    <h3>Out of the Blue - Capsis Elite Resort</h3>
+                                    <h4><span className="stars">★★★★★</span></h4>
                                 </header>
-                                <p>Developed blog/portfolio website for Mr. Ilyas Roubanis, who is a political analyst and journalist.</p>
-                                <p>To achieve the best SEO results the <strong>political-analyst.com</strong> domain was acquired.
-                                Since Mr. Roubanis is working on international basis, the <strong>.com</strong> suffix was preferred.</p>
-                                <p>The design is imitating a newspaper and trying to subvert from a typical blog site while placing the portfolio aspect as a second layer. 
-                                Typography and colours are also adjusted to help the readers to focus on the content.</p>
+                                <p>Set on its own private peninsula in Crete and affording spectacular Aegean Sea views, the Out of the Blue, Capsis Elite Resort is a luxury beach resort offering medical wellness, all-suite hotels, bungalows, private-pool villas and extensive leisure facilities.</p>
+                                <p>Capsis virtual tour project has been one of the most challenging projects. The project has over 150 panoramnic pictures and the UI design focuses on navigating efficiently to the correct panoramic picture. The final project received positive feedback and is currently used not only by the Hotel's visitors but also as a presentation tool in the company conferences.</p>
 
                                 <ul className="actions">
-                                    <li><Link href="http://political-analyst.com/"><a target="_blank" className="button">Visit</a></Link></li>
+                                    <li><Link href=""><a target="_blank" className="button">Visit</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section>
                         <Link href="/generic">
-                            <a className="image"><img src="/static/images/pnp_gr.png" alt="Planning and Prospects" /></a>
+                            <a className="image"><img src="static/images/HILTON_ATHENS.jpg" alt="Planning and Prospects" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>pnp.gr</h3>
+                                    <h3>Hilton of Athens</h3>
+                                    <h4><span className="stars">★★★★★</span></h4>
                                 </header>
 
-                                <p>Planning and Prospects is a well-established financial services firm. Located in the heart of Athens, PNP has accumulated a significant number of prestigious clients.</p>
-                                <p>The website was developed having in mind the existing history of the company and high expertise of the individuals.</p>
-                                <p>To highlight the above elements, there was a photoshooting of the personnel and a dedicated page to convey a short bio for each individual. 
-                                A logo was also designed as well as mail signatures and business cards, resulting to an overall re-branding of the firm.</p>
+                                <p>Hilton Athens is more than a hotel - it's a legacy. A favorite among locals and guests alike, our landmark hotel is a destination itself as the hub for Athens’ business, cultural and social life.</p>
+                                <p>This is one of the most recent Virtual Tour projects. There was a particular focus on the responsiveness and accessibility of the platform. To achieve the desired results, <a href="https://github.com/google/marzipano" target="_blank">martzipano.js</a> (open source library) was used. The code is using custom JavaScript, HTML, CSS code and is under version control (GIT) for easy maintenance and control.</p>
                                 <ul className="actions">
-                                    <li><Link href="http://pnp.gr/"><a target="_blank" className="button">Visit</a></Link></li>
+                                    <li><Link href="https://www.hiltonathens.gr/360tour/"><a target="_blank" className="button">Visit</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/nod_gr.png" alt="Nautical Club of Delfinario" /></a>
+                        <a className="image"><img src="static/images/TEI_OF_ATHENS.png" alt="TEI of Athens" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>nod.gr</h3>
+                                    <h3>TEI of Athens</h3>
                                 </header>
-                                <p>Nautical Club of Delfinario is a sea activities club based on Pireaus.</p>
-                                <p>The structure of the website is focusing on club's activities and a dedicated page to inform members about the recent news.</p>
-                                <p>Blue and yellow colours were used to convey the sea and sun elements of the activities and club's location.</p>
+                                <p>Founded in 1983 it originated from one of the first five Centres for Higher Technical Education established in 1974. The Technological Educational Institute of Athens offered a wide range of undergraduates and postgraduates studies. On 1 March 2018 the institute was merged with TEI of Piraeus forming the newly established University of West Attica.</p>
+                                <p>The project was a part of a thesis. All the important indoor and outdoor areas of the institute are depicted. The virtual tour has audio guidance and aims to introduce new students and visitors to the facilities.</p>
+                                <p>The virtual tour of the technical institute of Athens is hosted in the institute servers.</p>
 
                                 <ul className="actions">
-                                    <li><Link href="http://nod.gr/"><a target="_blank" className="button">Visit</a></Link></li>
+                                    <li><Link href="http://www.teiath.gr/ateia360/EN/ATHENS.html"><a target="_blank" className="button">Visit</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/odontiatriko_kentro_com.png" alt="Restaurant Reviews" /></a>
+                        <a className="image"><img src="static/images/POSEIDON.png" alt="Restaurant Reviews" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>odontiatriko-kentro.com</h3>
+                                    <h3>Poseidon Hotel</h3>
+                                    <h4><span className="stars">★★★★</span>★</h4>
                                 </header>
-                                <p>Developed a website of a dental centre. The dental centre has modern equipment and a variety of dental specialisations.</p>
-                                <p>To properly convey the friendly and welcoming atmosphere of the dental centre, a photoshooting was done on the various different spaces.</p>
-                                <p>There was also a redesign of existing logo in order to be used in a higher quality. </p>
+                                <p>Poseidon Athens Hotel provides the ultimate destination for holidays in the Greek capital.</p>
+                                <p>Poseidon was the one the first virtual tour projects. The focus was to highlight the seaside element and the stunning views the location provides.</p>
 
                                 <ul className="actions">
-                                    <li><Link href="http://odontiatriko-kentro.com/"><a target="_blank" className="button">Visit</a></Link></li>
+                                    <li><Link href=""><a target="_blank" className="button">Visit</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/xamogela_gr.png" alt="Xamogela Kidengarden website" /></a>
+                        <a className="image"><img src="static/images/ATHENS_ATRIUM.png" alt="Xamogela Kidengarden website" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>xamogela.gr</h3>
+                                    <h3>Athens Atrium</h3>
+                                    <h4><span className="stars">★★★★</span>★</h4>
                                 </header>
-                                <p>A redesign of a preschool (kindergarten) existing website.</p>
-                                <p>The overall design is using a large pallet to present the joyful and dreamy environment of the kindergarten. A large range of activities was displayed through video and photo mediums.</p>
-                                <p>The website is highly focused on SEO and on the social media interconnectivity.</p>
+                                <p>Known for its comfort, personal service and classic elegance, Athens Atrium Hotel & Jacuzzi Suites is one of the most promising 4 star hotels in Athens.</p>
+                                <p>This was the first virtual tour project. The virtual tour main goal was to highlight the warm and friendly environment of the Hotel.</p>
 
                                 <ul className="actions">
-                                    <li><Link href="http://xamogela.gr/"><a target="_blank" className="button">Visit</a></Link></li>
+                                    <li><Link href=""><a target="_blank" className="button">Visit</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/maritime_unipi_gr.png" alt="Restaurant Reviews" /></a>
+                        <a className="image"><img src="static/images/ELECTRA_HOTEL.png" alt="Restaurant Reviews" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>maritime.unipi.gr</h3>
+                                    <h3>Electra Hotel</h3>
                                 </header>
                                 <p>A portal created for the M.Sc. in Maritime Studies for the University of Piraeus.</p>
                                 <p>The website is based on the principle to help students' easy access vital studying elements effectively. There are detailed guidelines of the curriculum, professors bios and newsfeeds.</p>
                                 <p>This project also required a LAMP server to be build using dedicated servers by the ministry of education. </p>
 
                                 <ul className="actions">
-                                    <li>
-                                        <a target="_blank" className="button">Currently inactive</a>
-                                    </li>
+                                    <li><Link href="http://horizon.net.gr/VR/Electra/Hotel.html"><a target="_blank" className="button">Visit</a></Link></li>
                                 </ul>
                             </div>
                         </div>

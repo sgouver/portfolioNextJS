@@ -73,7 +73,7 @@ export default () => (
                                 <br/>
                             </p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/virtualtours"><a className="link primary"></a></Link>
                     </article>
                 </section>
                 <section id="two">

@@ -20,6 +20,10 @@
 			width: max-content;
 			margin-bottom: _size(element-margin);
 
+			.stars {
+				color: rgb(235, 235, 75);
+			}
+
 			> :first-child {
 				margin-bottom: 0;
 				width: calc(100% + 0.5em);
