@@ -6,13 +6,12 @@ const Menu = (props) => (
         <div className="inner">
             <ul className="links">
                 <li><Link href="/"><a><span onClick={props.onToggleMenu}>Home</span></a></Link></li>
-                <li><Link href="/landing"><a><span onClick={props.onToggleMenu}>Landing</span></a></Link></li>
-                <li><Link href="/generic"><a><span onClick={props.onToggleMenu}>Generic</span></a></Link></li>
-                <li><Link href="/elements"><a><span onClick={props.onToggleMenu}>Elements</span></a></Link></li>
-            </ul>
-            <ul className="actions vertical">
-                <li><a href="#" className="button special fit">Get Started</a></li>
-                <li><a href="#" className="button fit">Log In</a></li>
+                <li><Link href="/angularJS"><a><span onClick={props.onToggleMenu}>Angular JS</span></a></Link></li>
+                <li><Link href="/reactJS"><a><span onClick={props.onToggleMenu}>React JS</span></a></Link></li>
+                <li><Link href="/javascript"><a><span onClick={props.onToggleMenu}>Vanilla JavaScript and jQuery</span></a></Link></li>
+                <li><Link href="/wordpress"><a><span onClick={props.onToggleMenu}>WordPress CMS</span></a></Link></li>
+                <li><Link href="/phorcy"><a><span onClick={props.onToggleMenu}>Phorcy.com</span></a></Link></li>
+                <li><Link href="/virtualtours"><a><span onClick={props.onToggleMenu}>Virtual Tours Portfolio</span></a></Link></li>
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>

@@ -76,7 +76,7 @@ export default () => (
                         <Link href="/virtualtours"><a className="link primary"></a></Link>
                     </article>
                 </section>
-                <section id="two">
+                <section id="two" className="bio">
                     <div className="inner">
                         <header className="major">
                             <h2>Short bio</h2>
