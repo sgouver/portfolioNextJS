@@ -36,14 +36,14 @@ export default () => (
                                 <p>Capsis virtual tour project has been one of the most challenging projects. The project has over 150 panoramnic pictures and the UI design focuses on navigating efficiently to the correct panoramic picture. The final project received positive feedback and is currently used not only by the Hotel's visitors but also as a presentation tool in the company conferences.</p>
 
                                 <ul className="actions">
-                                    <li><Link href=""><a target="_blank" className="button">Visit</a></Link></li>
+                                    <li><Link href="https://virtualtourprojects.bitbucket.io/out-of-the-blue/"><a target="_blank" className="button">Visit</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section>
                         <Link href="/generic">
-                            <a className="image"><img src="static/images/HILTON_ATHENS.jpg" alt="Planning and Prospects" /></a>
+                            <a className="image"><img src="static/images/HILTON_ATHENS.jpg" alt="Hilton of Athens" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -61,11 +61,126 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="static/images/TEI_OF_ATHENS.png" alt="TEI of Athens" /></a>
+                        <a className="image"><img src="static/images/CACTUS_ROYAL.png" alt="Cactus Royal Hotel" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>TEI of Athens</h3>
+                                    <h3>Cactus Royal</h3>
+                                    <h4><span className="stars">★★★★★</span></h4>
+                                </header>
+                                <p>In an area of natural beauty, on the sea-side road of Stalis next to the most celebrated sandy beach of the area, the five-star holiday resort of Cactus Royal arises majestically.</p>
+
+                                <ul className="actions">
+                                    <li><Link href="https://virtualtourprojects.bitbucket.io/electra"><a target="_blank" className="button">Visit</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="static/images/ELECTRA_HOTEL.png" alt="Electra Hotel" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Electra Hotel</h3>
+                                    <h4><span className="stars">★★★★</span>★</h4>
+                                </header>
+                                <p>Inviting and welcoming, the Electra Athens, in the city’s commercial district is the place to stay whether you are here for business or pleasure.</p>
+
+                                <ul className="actions">
+                                    <li><Link href="https://virtualtourprojects.bitbucket.io/electra"><a target="_blank" className="button">Visit</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="static/images/CACTUS_VILLAGE.png" alt="Cactus Village Hotel" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Cactus Village</h3>
+                                    <h4><span className="stars">★★★★</span>★</h4>
+                                </header>
+                                <p>Inviting and welcoming, the Electra Athens, in the city’s commercial district is the place to stay whether you are here for business or pleasure.</p>
+
+                                <ul className="actions">
+                                    <li><Link href="https://virtualtourprojects.bitbucket.io/cactus-village/"><a target="_blank" className="button">Visit</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="static/images/POSEIDON.png" alt="Poseidon Hotel" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Poseidon Hotel</h3>
+                                    <h4><span className="stars">★★★★</span>★</h4>
+                                </header>
+                                <p>Poseidon Athens Hotel provides the ultimate destination for holidays in the Greek capital.</p>
+                                <p>Poseidon was the one the first virtual tour projects. The focus was to highlight the seaside element and the stunning views the location provides.</p>
+
+                                <ul className="actions">
+                                    <li><Link href="https://virtualtourprojects.bitbucket.io/poseidon/"><a target="_blank" className="button">Visit</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="static/images/CACTUS_BEACH.png" alt="Athens Atrium" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Cactus Beach</h3>
+                                    <h4><span className="stars">★★★★</span>★</h4>
+                                </header>
+                                <p>Known for its comfort, personal service and classic elegance, Athens Atrium Hotel & Jacuzzi Suites is one of the most promising 4 star hotels in Athens.</p>
+                                <p>This was the first virtual tour project. The virtual tour main goal was to highlight the warm and friendly environment of the Hotel.</p>
+
+                                <ul className="actions">
+                                    <li><Link href="https://virtualtourprojects.bitbucket.io/cactus-beach/"><a target="_blank" className="button">Visit</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="static/images/ATHENS_ATRIUM.png" alt="Athens Atrium" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Athens Atrium</h3>
+                                    <h4><span className="stars">★★★★</span>★</h4>
+                                </header>
+                                <p>Known for its comfort, personal service and classic elegance, Athens Atrium Hotel & Jacuzzi Suites is one of the most promising 4 star hotels in Athens.</p>
+                                <p>This was the first virtual tour project. The virtual tour main goal was to highlight the warm and friendly environment of the Hotel.</p>
+
+                                <ul className="actions">
+                                    <li><Link href="https://virtualtourprojects.bitbucket.io/athens-atrium"><a target="_blank" className="button">Visit</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="static/images/ILISSOS.png" alt="Illisos Hotel"/></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Illisos Hotel</h3>
+                                    <h4><span className="stars">★★★★</span>★</h4>
+                                </header>
+                                <p>Hotel Ilissos has been providing the best of Athenian hospitality for over 35 years, and is situated just a stone’s throw from the historical and commercial center of Athens.</p>
+
+                                <ul className="actions">
+                                    <li><Link href="https://virtualtourprojects.bitbucket.io/ilissos/"><a target="_blank" className="button">Visit</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="static/images/TEI_OF_ATHENS.png" alt="Technological Educational Institute of Athens" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Technological Educational Institute of Athens</h3>
                                 </header>
                                 <p>Founded in 1983 it originated from one of the first five Centres for Higher Technical Education established in 1974. The Technological Educational Institute of Athens offered a wide range of undergraduates and postgraduates studies. On 1 March 2018 the institute was merged with TEI of Piraeus forming the newly established University of West Attica.</p>
                                 <p>The project was a part of a thesis. All the important indoor and outdoor areas of the institute are depicted. The virtual tour has audio guidance and aims to introduce new students and visitors to the facilities.</p>
@@ -78,82 +193,17 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="static/images/POSEIDON.png" alt="Restaurant Reviews" /></a>
+                        <a className="image"><img src="static/images/TEI_OF PIRAEUS.png" alt="Piraeus University of Applied Sciences" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>Poseidon Hotel</h3>
-                                    <h4><span className="stars">★★★★</span>★</h4>
+                                    <h3>Piraeus University of Applied Sciences -  Workshop</h3>
                                 </header>
-                                <p>Poseidon Athens Hotel provides the ultimate destination for holidays in the Greek capital.</p>
-                                <p>Poseidon was the one the first virtual tour projects. The focus was to highlight the seaside element and the stunning views the location provides.</p>
+                                <p>The Piraeus University of Applied Sciences, also known as Technological Education Institute of Piraeus (TEIPIR), was a public higher education institute supervised by the Ministry of Education and Research</p>
+                                <p>The project is a part of a Thesis. The scope was to develop an e-learning introductory platform for the institutes workshop. The platform is using virtual tours with intergrated voice overs, videos and an archive of worlkshop's documentation.</p>
 
                                 <ul className="actions">
-                                    <li><Link href=""><a target="_blank" className="button">Visit</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <a className="image"><img src="static/images/ATHENS_ATRIUM.png" alt="Xamogela Kidengarden website" /></a>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Athens Atrium</h3>
-                                    <h4><span className="stars">★★★★</span>★</h4>
-                                </header>
-                                <p>Known for its comfort, personal service and classic elegance, Athens Atrium Hotel & Jacuzzi Suites is one of the most promising 4 star hotels in Athens.</p>
-                                <p>This was the first virtual tour project. The virtual tour main goal was to highlight the warm and friendly environment of the Hotel.</p>
-
-                                <ul className="actions">
-                                    <li><Link href=""><a target="_blank" className="button">Visit</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <a className="image"><img src="static/images/ELECTRA_HOTEL.png" alt="Restaurant Reviews" /></a>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Electra Hotel</h3>
-                                </header>
-                                <p>A portal created for the M.Sc. in Maritime Studies for the University of Piraeus.</p>
-                                <p>The website is based on the principle to help students' easy access vital studying elements effectively. There are detailed guidelines of the curriculum, professors bios and newsfeeds.</p>
-                                <p>This project also required a LAMP server to be build using dedicated servers by the ministry of education. </p>
-
-                                <ul className="actions">
-                                    <li><Link href="http://horizon.net.gr/VR/Electra/Hotel.html"><a target="_blank" className="button">Visit</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <a className="image"><img src="/static/images/odontiatros-kentro_gr.png" alt="Dentist Athens" /></a>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>odontiatros-kentro.gr</h3>
-                                </header>
-                                <p>A small dental care at the heart of Athens. While this small dental care was at the city centre, the customer base was declining every year.</p>
-                                <p>The reason was the difficulty to be discovered by patients. 
-                                The domain name was selected based on the geographical location to optimise SEO and the non-verbose simple design is aiming to attract patients of different income base.</p>
-                                <ul>
-                                    Additional actions:
-                                    <li>Logo was designed</li>
-                                    <li>Created domained based email</li>
-                                    <li>Custom email signature</li>
-                                    <li>Designed and printed business cards</li>
-                                    <li>Added on Google maps</li>
-                                    <li>Dental care photoshooting</li>
-                                    <li>Appointment scheduling though the portal</li>
-                                    <li>Physical label designed and placed on building's ground floor</li>
-                                </ul>
-
-                                <p>Overall the actions resulted to an <strong>50%</strong> increase in medical appointments per year and the site is steadily on Google Search first search page.</p>
-
-                                <ul className="actions">
-                                    <li><Link href="http://odontiatros-kentro.gr/"><a target="_blank" className="button">Visit</a></Link></li>
+                                    <li><Link href="https://virtualtourprojects.bitbucket.io/tei-piraeus/"><a target="_blank" className="button">Visit</a></Link></li>
                                 </ul>
                             </div>
                         </div>
