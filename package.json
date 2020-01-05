@@ -1,10 +1,6 @@
 {
-  "name": "Stefanos Gkouveris",
-  "description": "Portfolio Website",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sgouver/portfolioNextJS"
-  },
+  "name": "porfolio-stefanos-gkouveris",
+  "description": "portfolio-website",
   "license": "MIT",
   "scripts": {
     "dev": "next",
