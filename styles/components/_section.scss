@@ -17,7 +17,7 @@
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
-			width: max-content;
+			width: 100%;
 			margin-bottom: _size(element-margin);
 
 			.stars {
@@ -26,7 +26,6 @@
 
 			> :first-child {
 				margin-bottom: 0;
-				width: 75vw;
 
 				&:after {
 					content: '';
