@@ -20,11 +20,12 @@ module.exports = {
         use: ['babel-loader', 'raw-loader', 'postcss-loader',
           { loader: 'sass-loader',
             options: {
-              outputStyle: 'compressed', // These options are from node-sass: https://github.com/sass/node-sass
-              includePaths: ['styles', 'node_modules']
-                .map((d) => path.join(__dirname, d))
-                .map((g) => glob.sync(g))
-                .reduce((a, c) => a.concat(c), [])
+              sassOptions: {
+                includePaths: ['styles', 'node_modules']
+                  .map((d) => path.join(__dirname, d))
+                  .map((g) => glob.sync(g))
+                  .reduce((a, c) => a.concat(c), [])
+              }
             }
           }
         ]

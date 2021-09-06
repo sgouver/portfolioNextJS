@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import JavascriptLanding from '../components/JavascriptLanding';
 
-export default () => (
+const Javascript = () => (
     <Layout>
         <Head>
             <title>Vanilla JavaScript and jQuery</title>
@@ -118,3 +118,5 @@ export default () => (
         </div>
     </Layout>
 )
+
+export default Javascript

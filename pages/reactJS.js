@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import ReactjsLanding from '../components/ReactjsLanding';
 
-export default () => (
+const ReactJS = () => (
     <Layout>
         <Head>
             <title>Landing Page</title>
@@ -70,3 +70,5 @@ export default () => (
         </div>
     </Layout>
 )
+
+export default ReactJS

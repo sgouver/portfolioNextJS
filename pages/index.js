@@ -1,9 +1,8 @@
 import Link from 'next/link'
-
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 
-export default () => (
+const Index = () => (
     <Layout>
         <div>
             <Banner />
@@ -103,3 +102,5 @@ export default () => (
         </div>
     </Layout>
 )
+
+export default Index

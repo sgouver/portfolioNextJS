@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import WordpressLanding from '../components/WordpressLanding';
 
-export default () => (
+const Wordpress = () => (
     <Layout>
         <Head>
             <title>Websites designed using Wordpress CMS</title>
@@ -168,3 +168,5 @@ export default () => (
         </div>
     </Layout>
 )
+
+export default Wordpress

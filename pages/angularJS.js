@@ -4,7 +4,7 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import AngularjsLanding from "../components/AngularjsLanding";
 
-export default () => (
+const AngularJS = () => (
     <Layout>
         <Head>
             <title>Angular JS - Projects</title>
@@ -52,3 +52,5 @@ export default () => (
         </div>
     </Layout>
 )
+
+export default AngularJS

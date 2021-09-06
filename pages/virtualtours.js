@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import VirtualtoursLanding from '../components/VirtualtoursLanding';
 
-export default () => (
+const VirtualTours = () => (
     <Layout>
         <Head>
             <title>Websites designed using Wordpress CMS</title>
@@ -213,3 +213,5 @@ export default () => (
         </div>
     </Layout>
 )
+
+export default VirtualTours

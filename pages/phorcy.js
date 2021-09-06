@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import PhorcyLanding from '../components/PhorcyLanding';
 
-export default () => (
+const Phorcy = () => (
     <Layout>
         <Head>
             <title>Websites designed using Wordpress CMS</title>
@@ -67,3 +67,5 @@ export default () => (
         </div>
     </Layout>
 )
+
+export default Phorcy
